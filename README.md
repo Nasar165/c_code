@@ -26,11 +26,20 @@ suggestion is welcome to do so.
 Welcome to my practice repository where i have stored some easy simple C code that you can 
 view copy run or edit for what every reason you may wish. The setup of the project is 
 really easy and you won't need much time to get up and running. All you need to run the 
-code is [GCC](https://gcc.gnu.org/) and two commands if you are running linux.
-The commands are gcc <filename> and ./a.out and the c code will run.
+code is [GCC](https://gcc.gnu.org/) and a few commands if you are running linux.
+The commands are 
+
+To compile and run C Code
+1. To compile the c Code type [ gcc <filename> ] 
+2. to run compiled c Code [ ./a.out ]
+
+To generate DLL file for C#
+1. gcc -c  -fPIC <filename> (This will output a.out file)
+2. gcc -shared -o outputFile.dll inputFile.o 
 
 There are play of gcc command that you can play with so make sure to visit gcc's manual 
-and play around with the commands. Just make sure to read the docs properly before.
+and play around with the commands. Just make sure to read the docs properly before 
+playing with the commands.
 
 ### Prerequisites
 The get everything running smoothy without any hiccups will requires some tools they might 

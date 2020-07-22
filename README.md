@@ -30,12 +30,15 @@ code is [GCC](https://gcc.gnu.org/) and a few commands if you are running linux.
 The commands are 
 
 To compile and run C Code
-1. To compile the c Code type [ gcc <filename> ] 
+1. To compile the c Code type [ gcc filename ] 
 2. to run compiled c Code [ ./a.out ]
 
 To generate DLL file for C#
-1. gcc -c  -fPIC <filename> (This will output a.out file)
+1. gcc -c  -fPIC filename (This will output a.out file)
 2. gcc -shared -o outputFile.dll inputFile.o 
+
+to view Execution time of the code add time before ./a.out Example: time ./a.out 
+beware this code works only on Linux.
 
 There are play of gcc command that you can play with so make sure to visit gcc's manual 
 and play around with the commands. Just make sure to read the docs properly before 

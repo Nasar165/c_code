@@ -64,4 +64,4 @@ See also the list of [contributors](https://github.com/Xeroxcore/Xeroxcore//grap
 This project is licensed under the MIT - see the [LICENSE](LICENSE) file for details
 
 ### Acknowledgments
-- [C Programing Language](https://www.gomasterkey.com/) - By (author)  Brian W. Kernighan , By (author)  Dennis M. Ritchie
+- [C Programing Language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628) - By (author)  Brian W. Kernighan , By (author)  Dennis M. Ritchie

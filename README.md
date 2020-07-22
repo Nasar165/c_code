@@ -1,4 +1,4 @@
-![mcs logo](https://github.com/MCS-Unity/mcs-backend/blob/master/resources/mcslogo.png)
+![mcs logo](https://github.com/MCS-Unity/mcs-backend/blob/master/resources/mcsunity_logo.png)
 <br/><br/>
 ![GitHub repo size](https://img.shields.io/github/repo-size/Nasar165/c_code)
 [![APM](https://img.shields.io/apm/l/vim-mode)](https://github.com/Nasar165/c_code/blob/master/LICENSE)

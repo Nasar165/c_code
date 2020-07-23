@@ -7,6 +7,17 @@ int error(char message[])
     return 1;
 }
 
+int isArgument(char argument[])
+{
+    if (argument[0] == '-')
+        return 1;
+    return 0;
+}
+
+void runArgument()
+{
+}
+
 int main(int argc, char *argv[])
 {
     if (argc > 1)
@@ -15,10 +26,18 @@ int main(int argc, char *argv[])
         char *input[] = {argv[0]};
         for (int i = 1; i < argc; i += 2)
         {
-            *input = argv[i];
-            printf("%s\n", *input);
-        }
+            if (isArgument(argv[i]))
+            {
+                *input = argv[i];
+                printf("%s\n", *input);
+            }
+            else
+            {
 
+                return error("An invalid argument was detected");
+                break;
+            }
+        }
         return 1;
     }
     else

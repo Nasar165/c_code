@@ -14,8 +14,12 @@ int isArgument(char argument[])
     return 0;
 }
 
-void runArgument()
+void runArgument(char argument[], char value[], int key)
 {
+    if (strcmp(argument, "-pn") == 0)
+        printf("Adding new Package %s\n", value);
+    else
+        printf("Could not find a matching argument\n");
 }
 
 int main(int argc, char *argv[])
@@ -30,10 +34,10 @@ int main(int argc, char *argv[])
             {
                 *input = argv[i];
                 printf("%s\n", *input);
+                runArgument(*input, argv[i + 1], i);
             }
             else
             {
-
                 return error("An invalid argument was detected");
                 break;
             }

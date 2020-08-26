@@ -1,4 +1,4 @@
-﻿functionusing System.Runtime.InteropServices;
+﻿using System.Runtime.InteropServices;
 
 namespace csharp
 {

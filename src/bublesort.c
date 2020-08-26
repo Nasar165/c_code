@@ -23,51 +23,22 @@ void SortArray(int array[], int length)
 
 int main()
 {
-    int number[] = {
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-        100,
-        3,
-        5,
-        1,
-    };
-
+    int number[] = {100, 3, 5, 1};
     unsigned int length = (int)(sizeof(number) / sizeof(number[0]));
+
     printf("Array Length %d\n", length);
     printf("unsorted array\n");
+
     for (int i = 0; i < length; i++)
         printf("%d\t", number[i]);
     printf("\n");
+
     SortArray(number, length);
+
     printf("sorted array\n");
     for (int i = 0; i < length; i++)
         printf("%d\t", number[i]);
     printf("\n");
+
     return 0;
 }

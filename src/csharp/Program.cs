@@ -4,7 +4,7 @@ namespace csharp
 {
     class Program
     {
-        // add the compiled dll into bin/Debug/netcoreapp3.1 to avoid DLLNotFoundException
+        // make sure to add the file to ItemGroup in csproj
         [DllImport("hello.dll", EntryPoint = "printMessage")]
         static extern void printMessage(char[] message);
 

@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include <dirent.h>
 #include <errno.h>
+#include <string.h>
 
 int DirectoryExists(char path[]);
 
 int main()
 {
-    DirectoryExists("/home/xeroxcore/Downloads");
+    DirectoryExists("/home/xeroxcore/Downlods");
     return 0;
 }
 
@@ -22,7 +23,7 @@ int DirectoryExists(char path[])
     }
     else if (ENOENT == errno)
     {
-        printf("Directory does not exists\n");
+        printf("%s\n", strerror(errno));
     }
     else
     {

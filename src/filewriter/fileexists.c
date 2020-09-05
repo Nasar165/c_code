@@ -6,7 +6,7 @@ int FileExists(char filePath[]);
 
 int main()
 {
-    FileExists("/home/xeroxcore/Downloads/linkedin.pn");
+    FileExists("/home/xeroxcore/Downloads/linkedin.png");
     return 0;
 }
 

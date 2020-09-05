@@ -7,7 +7,7 @@ int DirectoryExists(char path[]);
 
 int main()
 {
-    DirectoryExists("/home/xeroxcore/Downlods");
+    DirectoryExists("/home/xeroxcore/Downloads");
     return 0;
 }
 

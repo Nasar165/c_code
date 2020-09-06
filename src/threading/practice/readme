@@ -1,0 +1,36 @@
+# GDB
+A tool for debugging c code. It will reqire some minor command to get it working.
+
+#commands
+q = quit.
+c = continue without breaking.
+push enter = move to next breakpoint.
+!clear = clear the terminal.
+run = run code.
+
+# GCC compiler 
+add -g to allow debugging.
+sample gcc -g main.c -o a.out
+
+# view c code 
+type <list> to show all the code.
+to view specific lines type <list rownr,rownr> sample: list 13,15
+
+# add breakpoint and view them
+b <function> sample: b myfunction
+To view breakpoints type <info b>
+
+# Running the code 
+gdb ./a.out
+
+# Show assembly code
+<disass> the code must be running using the run command.
+
+# Move to the next instruction 
+nexti the code will move one step.
+
+# keep showing the value of a var
+display <varname> sample display counter
+
+# show a value or memory location of a variable 
+print <varname> sample print &counter will print the memory location of the counter.

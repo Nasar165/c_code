@@ -3,6 +3,10 @@
         "Eddaoui",
         "Kernighan",
         "Nasar",
-        "Ritchie"
+        "Ritchie",
+        "disass",
+        "nexti",
+        "rownr",
+        "varname"
     ]
 }

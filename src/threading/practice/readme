@@ -36,3 +36,10 @@ display <varname> sample display counter
 
 # show a value or memory location of a variable 
 print <varname> sample print &counter will print the memory location of the counter.
+
+# Show threads 
+info threads 
+thread <id> to switch between threads. Sample thread 1 or thread 3
+
+# Stop at certain events
+<watch> <variable> <operator> <value> sample: watch counter == 4500 

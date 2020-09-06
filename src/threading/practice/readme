@@ -1,5 +1,5 @@
 # GDB
-A tool for debugging c code. It will reqire some minor command to get it working.
+A tool for debugging c code. It will require some minor command to get it working.
 
 #commands
 q = quit.
@@ -17,8 +17,10 @@ type <list> to show all the code.
 to view specific lines type <list rownr,rownr> sample: list 13,15
 
 # add breakpoint and view them
-b <function> sample: b myfunction
+b <function> sample: b myFunction
+b <row number> sample b 12 this will add a break point at row 12
 To view breakpoints type <info b>
+delete a breakpoint use d <id> sample d 1
 
 # Running the code 
 gdb ./a.out
